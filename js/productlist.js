@@ -22,4 +22,6 @@ function listProducts(oneProduct) {
 
   const parentElement = document.querySelector("main");
   parentElement.appendChild(myClone);
+
+  //copy.querySelector(".read-more").setAttribute("href", `produkt.html?id=${product.id}`);
 }
