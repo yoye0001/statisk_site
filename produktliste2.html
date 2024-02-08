@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="css/product.css">
 </head>
 
 <body>
-
+    <nav>
+        <a href="index.html">Forside</a>
+        <a href="kategori.html">Kategori</a>
+        <a href="produkt.html">Produkt</a>
+        <a href="produktliste2.html">Produktliste</a>
+    </nav>
 
     <!-- [{"id":1163,"gender":"Men","category":"Apparel","subcategory":"Topwear","articletype":"Tshirts","season":"Summer","productionyear":2011,"usagetype":"Sports","productdisplayname":"Sahara -->
     <!-- Team India Fanwear Round Neck Jersey","price":895,"discount":null,"brandname":"Nike","soldout":0}, -->
@@ -18,7 +23,7 @@
             <article class="product">
                 <h2 class="productdisplayname">
                 </h2>
-                <img src="https://kea-alt-del.dk/t7/images/webp/1000/1530.webp" alt="">
+                <img class="produktimg" src="https://kea-alt-del.dk/t7/images/webp/1000/1530.webp" alt="">
                 <p class="gender">
 
 
@@ -29,11 +34,15 @@
 
 
                 <span class="price"></span>
+                <div class="discount">
+                    <p>Now DKK 1560,-</p>
+                    <p>-34%</p>
+                </div>
                 <a class="read-more" href="produkt.html">Read More</a>
             </article>
         </template>
 
-        <h1>Produktliste</h1>
+        <h1>Apparel</h1>
         <main></main>
     </div>
     <script src="js/productlist.js"></script>

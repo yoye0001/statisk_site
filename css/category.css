@@ -1,0 +1,48 @@
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: gray;
+  text-align: center;
+  padding: 2%;
+  font-family: Arial, sans-serif;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: black; /* Change the color on hover */
+}
+
+#produkt2 .grid3 {
+  display: flex;
+  justify-content: center;
+}
+
+#produkt2 .letterGroup {
+  margin: 20px;
+}
+
+#produkt2 a {
+  display: block;
+  font-size: 50px; /* adjust the font size as needed */
+  margin-bottom: 10px; /* adjust spacing between links as needed */
+  text-decoration: none;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+#produkt2 a:hover {
+  color: darkgray; /* Change the color on hover */
+}

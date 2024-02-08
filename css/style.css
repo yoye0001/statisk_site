@@ -78,10 +78,6 @@ body {
   z-index: 2;
 }
 
-p {
-  text-decoration: line-through;
-}
-
 .brand p,
 .articletype p {
   text-decoration: none;
@@ -119,6 +115,7 @@ nav {
   background-color: gray;
   text-align: center;
   padding: 2%;
+  font-family: Arial, sans-serif;
 }
 
 nav a {
