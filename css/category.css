@@ -1,19 +1,19 @@
 header {
-  background-color: #333;
   color: #fff;
   padding: 20px;
   text-align: center;
 }
 
 nav {
-  background-color: gray;
   text-align: center;
   padding: 2%;
   font-family: Arial, sans-serif;
+  border-bottom: 2px solid black;
 }
 
 nav a {
-  color: #fff;
+  color: #000000;
+
   text-decoration: none;
   padding: 10px;
   margin: 0 10px;
@@ -22,9 +22,8 @@ nav a {
 }
 
 nav a:hover {
-  color: black; /* Change the color on hover */
+  color: rgb(163, 163, 163); /* Change the color on hover */
 }
-
 #produkt2 .grid3 {
   display: flex;
   justify-content: center;

@@ -7,6 +7,7 @@ function showCategories(cats) {
 }
 
 function showCategory(cat) {
+  console.log(cat);
   const template = document.querySelector("template").content;
   const clone = template.cloneNode(true);
   clone.querySelector("a").textContent = cat.category;
